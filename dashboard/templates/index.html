@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI SOC Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background: #f4f6f8;
+        }
+        h1 {
+            color: #222;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 AI-Driven SOC Dashboard</h1>
+
+    <div class="card">
+        <h3>Total Threats: {{ total_threats }}</h3>
+        <h3>Average Reputation Score: {{ avg_reputation }}</h3>
+        <h3>High Confidence Threats: {{ high_confidence }}</h3>
+    </div>
+
+    <h2>🚨 Top Threat Intelligence Events</h2>
+    <table>
+        <tr>
+            <th>IP Address</th>
+            <th>Threat Type</th>
+            <th>Reputation</th>
+            <th>Confidence</th>
+            <th>Action</th>
+        </tr>
+
+        {% for threat in top_threats %}
+        <tr>
+            <td>{{ threat.ip_address }}</td>
+            <td>{{ threat.threat_type }}</td>
+            <td>{{ threat.reputation_score }}</td>
+            <td>{{ threat.confidence }}</td>
+            <td>{{ threat.recommended_action }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
