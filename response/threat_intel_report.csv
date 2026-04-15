@@ -1,0 +1,51 @@
+ip_address,reputation_score,threat_type,confidence,recommended_action
+192.168.1.100,79,Brute Force Source,Medium,Block and Monitor
+192.168.1.101,97,Malware Callback,High,Block and Monitor
+192.168.1.102,76,Port Scanner,High,Block and Monitor
+192.168.1.103,90,Suspicious Exfiltration Node,High,Block and Monitor
+192.168.1.104,92,Malware Callback,High,Block and Monitor
+192.168.1.105,95,Brute Force Source,Medium,Block and Monitor
+192.168.1.106,78,Malware Callback,High,Block and Monitor
+192.168.1.107,74,Port Scanner,High,Block and Monitor
+192.168.1.108,88,Botnet C2,Medium,Block and Monitor
+192.168.1.109,95,Port Scanner,Medium,Block and Monitor
+192.168.1.110,74,Suspicious Exfiltration Node,High,Block and Monitor
+192.168.1.111,99,Botnet C2,Medium,Block and Monitor
+192.168.1.112,89,Brute Force Source,Medium,Block and Monitor
+192.168.1.113,94,Port Scanner,High,Block and Monitor
+192.168.1.114,93,Brute Force Source,Medium,Block and Monitor
+192.168.1.115,82,Port Scanner,Medium,Block and Monitor
+192.168.1.116,95,Suspicious Exfiltration Node,Medium,Block and Monitor
+192.168.1.117,90,Malware Callback,High,Block and Monitor
+192.168.1.118,91,Malware Callback,Medium,Block and Monitor
+192.168.1.119,97,Malware Callback,High,Block and Monitor
+192.168.1.120,99,Malware Callback,Medium,Block and Monitor
+192.168.1.121,74,Brute Force Source,Medium,Block and Monitor
+192.168.1.122,78,Port Scanner,Medium,Block and Monitor
+192.168.1.123,72,Brute Force Source,Medium,Block and Monitor
+192.168.1.124,85,Botnet C2,High,Block and Monitor
+192.168.1.125,86,Malware Callback,High,Block and Monitor
+192.168.1.126,96,Botnet C2,High,Block and Monitor
+192.168.1.127,97,Botnet C2,Medium,Block and Monitor
+192.168.1.128,79,Botnet C2,Medium,Block and Monitor
+192.168.1.129,95,Botnet C2,High,Block and Monitor
+192.168.1.130,98,Port Scanner,High,Block and Monitor
+192.168.1.131,83,Malware Callback,Medium,Block and Monitor
+192.168.1.132,80,Suspicious Exfiltration Node,High,Block and Monitor
+192.168.1.133,72,Port Scanner,Medium,Block and Monitor
+192.168.1.134,89,Brute Force Source,Medium,Block and Monitor
+192.168.1.135,93,Port Scanner,High,Block and Monitor
+192.168.1.136,89,Suspicious Exfiltration Node,High,Block and Monitor
+192.168.1.137,87,Botnet C2,Medium,Block and Monitor
+192.168.1.138,84,Malware Callback,High,Block and Monitor
+192.168.1.139,82,Botnet C2,Medium,Block and Monitor
+192.168.1.140,75,Botnet C2,High,Block and Monitor
+192.168.1.141,86,Port Scanner,Medium,Block and Monitor
+192.168.1.142,89,Botnet C2,Medium,Block and Monitor
+192.168.1.143,98,Botnet C2,Medium,Block and Monitor
+192.168.1.144,87,Brute Force Source,Medium,Block and Monitor
+192.168.1.145,83,Suspicious Exfiltration Node,Medium,Block and Monitor
+192.168.1.146,74,Brute Force Source,High,Block and Monitor
+192.168.1.147,88,Malware Callback,Medium,Block and Monitor
+192.168.1.148,76,Suspicious Exfiltration Node,Medium,Block and Monitor
+192.168.1.149,80,Botnet C2,High,Block and Monitor
